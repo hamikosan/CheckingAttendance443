@@ -77,6 +77,6 @@ router.get('/index',function(req,res){
 });
 
 /* Server listening */
-app.listen(process.env.PORT ||3030||3000, function () {
+app.listen(process.env.PORT ||3030||3000,"0.0.0.0", function () {
     console.log("Server listening at Port "+process.env.PORT);
 });
